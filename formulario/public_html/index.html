@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            
+            <form action="cadastrar_cliente.php">                                                               
+                 
+                <label for="txtnome">Nome Completo</label>
+                <input type="text" id="txtnome" name="txtnome" placeholder="Seu Nome">
+                
+                <label for="txtnome">Sexo</label>
+                <select id="estado" name="sexo">
+                    <option value="0">Selecionar</option> 
+                    <option value="m">Masculino</option>
+                    <option value="f">Feminino</option>
+                </select>
+                
+                <label for="txtnome">RG</label>
+                <input type="text" id="txtnome" name="txtnome" placeholder="Seu RG">
+                
+                <label for="txtnome">CPF</label>
+                <input type="text" id="txtnome" name="txtnome" placeholder="Seu CPF">
+                
+                <label for="txtnome">Logradouro</label>
+                <input type="text" id="txtnome" name="txtnome" placeholder="Seu Logradouro">
+                
+                <label for="txtnome">Cidade</label>
+                <input type="text" id="txtnome" name="txtnome" placeholder="Sua cidade">
+                                
+                <label for="txtnome">Estado</label>
+                <select id="estado" name="estado">
+                    <option value="0">Selecionar</option> 
+                    <option value="ac">Acre</option> 
+                    <option value="al">Alagoas</option> 
+                    <option value="am">Amazonas</option> 
+                    <option value="ap">Amapá</option> 
+                    <option value="ba">Bahia</option> 
+                    <option value="ce">Ceará</option> 
+                    <option value="df">Distrito Federal</option> 
+                    <option value="es">Espírito Santo</option> 
+                    <option value="go">Goiás</option> 
+                    <option value="ma">Maranhão</option> 
+                    <option value="mt">Mato Grosso</option> 
+                    <option value="ms">Mato Grosso do Sul</option> 
+                    <option value="mg">Minas Gerais</option> 
+                    <option value="pa">Pará</option> 
+                    <option value="pb">Paraíba</option> 
+                    <option value="pr">Paraná</option> 
+                    <option value="pe">Pernambuco</option> 
+                    <option value="pi">Piauí</option> 
+                    <option value="rj">Rio de Janeiro</option> 
+                    <option value="rn">Rio Grande do Norte</option> 
+                    <option value="ro">Rondônia</option> 
+                    <option value="rs">Rio Grande do Sul</option> 
+                    <option value="rr">Roraima</option> 
+                    <option value="sc">Santa Catarina</option> 
+                    <option value="se">Sergipe</option> 
+                    <option value="sp">São Paulo</option> 
+                    <option value="to">Tocantins</option>
+                </select>
+                
+                <label for="cmbpais">País</label>
+                <select id="cmbpais" name="cmbpais">
+                    <option value="0">Selecionar</option>
+                    <option value="1">Brasil</option>
+                    <option value="2">USA</option>
+                    <option value="3">Itália</option>
+                    <option value="4">Japão</option>
+                    <option value="5">China</option>
+                    <option value="6">Rússia</option>
+                    <option value="7">Marrocos</option>
+                    <option value="8">Espanha</option>
+                    <option value="9">Portugal</option>
+                    <option value="10">Outro país</option>
+                </select>
+                
+                <label for="txtemail">e-Mail</label>
+                <input type="text" id="txtemail" name="txtemail" placeholder="Seu e-Mail">
+                
+                
+            </form>
+            <form
+                action="Gravar.html"method="get">
+                <input type="submit" value="Gravar">
+                </form>
+            <link href="estilo.css" rel="stylesheet" type="text/css"/>
+        </div> 
+    </body>
+</html>
